@@ -27,7 +27,7 @@ public class PostJobTest {
 			BrowserFactory browserFactory = new BrowserFactory();
 			driver = DriverFactory.createDriver();
 			System.out.println("test driver baslatildi. \n" + driver);
-		//	driver.get("https://www.reddit.com/r/movies/comments/155ag1m/official_discussion_oppenheimer_spoilers/");
+			driver.get("http://localhost:5041/Home");
 			DriverFactory.setimplicitlyWait(driver);
 			System.out.println(driver.getTitle());
 			js = (JavascriptExecutor) driver;

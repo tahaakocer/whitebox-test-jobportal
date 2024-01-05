@@ -55,7 +55,7 @@ public class RegisterTest {
  		WaitMethods.waitForPageToLoad(driver, 10);
  		registerPage = new RegisterPage(driver);
  		registerPage.selectElement.click();
- 		registerPage.employerElement.click();
+ 		registerPage.userElement.click();
  		registerPage.usernameElement.sendKeys(usernameString);
  		registerPage.emailElement.sendKeys(emailString);
  		registerPage.passwordElement.sendKeys(passwordString);
