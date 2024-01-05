@@ -44,7 +44,7 @@ public class RegisterTest {
 	}
 
 	@Test
-	public void test() {
+	public void test03() {
 		homePage = new HomePage(driver);
  		homePage.loginElement.click();
  		

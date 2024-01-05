@@ -39,7 +39,7 @@ public class LoginTest {
 	}
 
 	@Test
-	public void test() {
+	public void test01() {
 		
 		homePage = new HomePage(driver);
  		homePage.loginElement.click();

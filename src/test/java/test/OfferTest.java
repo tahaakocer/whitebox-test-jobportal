@@ -48,7 +48,7 @@ public class OfferTest {
 	}
 
 	@Test
-	public void test() {
+	public void test02() {
 
 		homePage = new HomePage(driver);
 		homePage.searchInputElement.sendKeys("Ata");

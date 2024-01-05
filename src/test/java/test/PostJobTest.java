@@ -36,7 +36,7 @@ public class PostJobTest {
 		}	
 	}
 	@Test
-	public void test() {
+	public void test04() {
 		
 		homePage = new HomePage(driver);
  		homePage.postJobElement.click();
